@@ -99,7 +99,7 @@ const Product = () => {
             {
                 product && <div className=' flex justify-center items-center flex-col gap-5'>
                     <div className=' object-cover'>
-                        <img src={product.image} alt="" />
+                        <img src={product.image} alt="" width={400} height={400}/>
                     </div>
                     <div className=' flex justify-center'>
                         <h2 className=' font-bold font-mono text-5xl'>{product.name}</h2>
