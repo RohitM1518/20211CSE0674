@@ -26,6 +26,6 @@ export const getProducts = async (req, res) => {
         }
         return res.status(200).json(new ApiResponse(200, res.data, "Products fetched Successfully"))
     } catch (error) {
-        throw new ApiError(500, "Something went wrong while fetch the products",error)
+        throw new ApiError(500, "Something went wrong while fetch the products ",error)
     }
 }
