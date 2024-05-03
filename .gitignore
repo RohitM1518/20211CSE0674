@@ -6,8 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-Question1/Frontend/.env
-Question2/Backend/.env
+Question1/Backend/.env
+Question2/Frontend/.env
 Question1/Frontend/node_modules
 Question2/Backend/node_modules
 
